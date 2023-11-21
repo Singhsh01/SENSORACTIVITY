@@ -1,0 +1,25 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/accelerometerChart"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        class="com.jjoe64.graphview.GraphView" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/gyroscopeChart"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        class="com.jjoe64.graphview.GraphView" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/proximityChart"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        class="com.jjoe64.graphview.GraphView" />
+
+</LinearLayout>
